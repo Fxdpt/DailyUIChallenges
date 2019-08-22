@@ -15,4 +15,4 @@ It's not perfect but hey ! Its only Challenge #1 !
 
 Simply Run this command at the root
 
-`npm start`
+`$ npm start`
