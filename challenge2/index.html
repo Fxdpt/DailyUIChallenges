@@ -93,18 +93,46 @@
                     <div class="step-title waves-effect">Payment</div>
                     <div class="step-content">
                       <h5>Payment Informations</h5>
-                      <div class="step-actions">
-                        <!-- Here goes your actions buttons -->
-                        <button class="waves-effect waves-dark btn next-step">
-                          CONTINUE
-                        </button>
+                      <div class="col s12">
+                        <input
+                          id="credit_card_number"
+                          name="credit_card_number"
+                          type="text"
+                          class="validate"
+                          placeholder="Credit Card Number"
+                          required
+                        />
                       </div>
-                    </div>
-                  </li>
-                  <li class="step">
-                    <div class="step-title waves-effect">Resume</div>
-                    <div class="step-content">
-                      <h5>Resume</h5>
+                      <div class="col s12">
+                        <input
+                          id="credit_card_name"
+                          name="credit_card_name"
+                          type="text"
+                          class="validate"
+                          placeholder="Name (as it appears on your card)"
+                          required
+                        />
+                      </div>
+                      <div class="col s6">
+                        <input
+                          id="expiration_date"
+                          name="expiration_date"
+                          type="text"
+                          class="validate"
+                          placeholder="Expiration date (format MM/YY)"
+                          required
+                        />
+                      </div>
+                      <div class="col s6">
+                        <input
+                          id="secret_key"
+                          name="secret_key"
+                          type="text"
+                          class="validate"
+                          placeholder="Secret Key (3 numbers on the back of the card)"
+                          required
+                        />
+                      </div>
                       <div class="step-actions">
                         <!-- Here goes your actions buttons -->
                         <button class="waves-effect waves-dark btn next-step">
